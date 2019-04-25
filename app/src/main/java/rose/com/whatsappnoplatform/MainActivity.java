@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+
     public EditText addnumber ;
 
     @Override
@@ -25,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public void openNumber(View view){
         String content = addnumber.getText().toString();
         String number = "https://wa.me/"+content;
-        String fix = number;
-        Intent webIntent = new Intent(Intent.ACTION_VIEW ,Uri.parse(fix));
+        Intent webIntent = new Intent(Intent.ACTION_VIEW ,Uri.parse(number));
         startActivity(webIntent);
         addnumber.getText().clear();
     }

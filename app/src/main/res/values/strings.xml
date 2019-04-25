@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">WhatsApp No Platform</string>
+
+    <string-array name="country_arrays">
+        <item>852</item>
+        <item>91</item>
+        <item>62</item>
+        <item>995</item>
+    </string-array>
+
 </resources>
